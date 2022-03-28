@@ -9,6 +9,9 @@ const BookContextProvider = (props) => {
     { id: 3, title: 'Suzwe Banzi is dead' },
     { id: 4, title: 'Mr. Sada is a farmer' }
   ]);
+
+  const addBook = book => setBooks([...books, book])
+
   return (
     <BookContext.Provider value={{books}}>
       {props.children}
