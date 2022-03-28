@@ -9,12 +9,12 @@ class BookList extends Component {
     return (
       <div
         className='book-list'
-        style={{ background: theme.ui, color: theme.syntax }}
+        style={{ background: theme.bg, color: theme.syntax }}
       >
         <ul>
-          <li style={{ background: theme.bg }}>First Book</li>
-          <li style={{ background: theme.bg }}>Second Book</li>
-          <li style={{ background: theme.bg }}>Third Book</li>
+          <li style={{ background: theme.ui }}>First Book</li>
+          <li style={{ background: theme.ui }}>Second Book</li>
+          <li style={{ background: theme.ui }}>Third Book</li>
         </ul>
       </div>
     );
